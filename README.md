@@ -40,8 +40,6 @@ Book_Increment_counter – Increases available copies upon successful return.
 📌 Identify all books that have never been rented out.
 
 <pre>```sql
-Copy
-Edit
 SELECT
     b.BookID,
     b.Title
