@@ -49,9 +49,10 @@ LEFT JOIN Rental r ON b.BookID = r.BookID
 WHERE r.BookID IS NULL;
 
     
-❓ Q2: What is the rental history for each member?
+#### ❓ Q2: What is the rental history for each member?
 📌 Show all rentals made by each member, including book title and return status.
 
+```sql
 SELECT 
     m.MemberID,
     m.Name,
