@@ -39,7 +39,7 @@ Book_Increment_counter – Increases available copies upon successful return.
 ❓ Q1: Which books are currently not borrowed by any member?
 📌 Identify all books that have never been rented out.
 
-'''sql
+```sql
 Copy
 Edit
 SELECT
