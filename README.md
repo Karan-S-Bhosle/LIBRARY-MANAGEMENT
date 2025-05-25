@@ -39,7 +39,6 @@ Book_Increment_counter – Increases available copies upon successful return.
 ❓ Q1: Which books are currently not borrowed by any member?
 📌 Identify all books that have never been rented out.
 
-<pre>```sql
 SELECT
     b.BookID,
     b.Title
@@ -47,7 +46,8 @@ FROM
     Books b
 LEFT JOIN Rental r ON b.BookID = r.BookID
 WHERE
-    r.BookID IS NULL;``` </pre>
+    r.BookID IS NULL;
+
 
     
 ❓ Q2: What is the rental history for each member?
